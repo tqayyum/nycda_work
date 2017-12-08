@@ -25,7 +25,9 @@ function numChecker(val1){
 		alert(val1 + ' is greater than to 100');
 	} else if (val1 ===  100) {
 		alert(val1 + ' is equals 100');
-	} 
+	}  else if(isNaN(val1) === true) {
+		alert('You need to pick number')
+	}
 }
 
 //4. Declare a function that takes a name as an argument and tells the user what name they've entered. Try running it after it has been declared.
@@ -45,6 +47,9 @@ function virtualDoor(pickADoor) {
 		alert('You get a million dollars');
 	} else if (pickADoor === 3) {
 		alert('You get a 1 dollars');
+	} else if(isNaN(pickADoor) === true) {
+		alert('This is not a valid door')
+	} else if(pickADoor >= 4) {
+		alert('This is not a valid door')
 	}
-
 }
