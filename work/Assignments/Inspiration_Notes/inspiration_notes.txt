@@ -1,0 +1,7 @@
+This my inspiration notes. I will be doing a media post project. The site will be responsive with layout and styles. Attached if a mock of the site. The general requirements of:
+* images
+* videos
+* ads 
+* responsive
+* share bar
+* pagination

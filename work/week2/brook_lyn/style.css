@@ -1,0 +1,79 @@
+/* 
+## Style Hints: 
+Body Font Size = 12px
+	 Line Height = 17px
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+Link Hover Color = #20222a
+*/
+
+
+body {
+	color: #656565;
+	font-size: 12px;
+	font-family: Times New Roman, serif;
+	margin: 35px 35px 35px 35px;
+}
+ul {
+	padding: 0px;
+}
+li {
+	display: inline-block;
+	border: 5px solid #656565;
+	padding: 1px;
+}
+
+a:hover {
+	color: #20222a;
+}
+
+#headline {
+	padding-bottom: 10px;
+	width: 200px;
+	height: 33px;
+}
+
+#top_image, #bottom_image, {
+	width: 960px;
+	height: 500px;	
+
+}
+
+#text_content, #bottom_links {
+	width: 960px;
+	height: 165px;
+}
+#footer {
+	width: 90px;
+	height: 33px;
+}
+/* This section is for media queries AKA responive*/
+
+/* iPhoneX */
+@media 
+  and (max-width: 812px)
+  and (min-width: 375px)
+  and (orientation: landscape) {
+	#headline, {
+  		width: 100px;
+  		height: 20px;
+  	}
+  	
+  	#top_image {
+  		width: 200px;
+  		height: 200px;  		
+  	}
+/*  	#text_content {
+  		height: 5px;
+  		width: 5px;	
+  	}
+  	#bottom_links {
+  		height: 5px;
+  		width: 5px;
+  	}
+  	#footer {
+  		height: 5px;
+  		width: 5px;
+  	}  	
+*/
+}
