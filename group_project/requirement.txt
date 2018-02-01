@@ -1,5 +1,0 @@
-Must have a node server
-Must have a client served by the sever
-Must leverage an external API
-
-Research -- Spike
