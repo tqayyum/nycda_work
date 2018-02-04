@@ -1,0 +1,17 @@
+{
+  "name": "serving_static_files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "morgan": "^1.9.0",
+    "static": "^2.0.0"
+  }
+}
