@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+    margin-left: 20px;
+}
+
+#choclateChip {
+    position: relative;
+    left: 170px;
+    bottom: 37px;
+}
+
+#c1 {
+	position: relative;
+	top: 2px;
+	color: red;
+}
