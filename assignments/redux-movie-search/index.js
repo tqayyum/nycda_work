@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 import MovieListApp from './components/MovieListApp.jsx';
+require
 
 ReactDOM.render(
 	<Provider store={store}>

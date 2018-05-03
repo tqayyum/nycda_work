@@ -3,13 +3,14 @@
 export const LOAD_REQUEST = 'movieList/LOAD_REQUEST';
 export const LOAD_SUCCESS = 'movieList/LOAD_SUCCESS';
 export const LOAD_FAILURE = 'movieList/LOAD_FAILURE';
+import OMDB_API_KEY from '../api_key.js'
 
 import fetch from 'isomorphic-fetch';
 
 // action creators go here
 export const fetchMovie = (searchParam, dispatch) => {
     let searchVal = searchParam;
-    let OMDB_API_KEY = '3b18391c';
+    
     
     return (dispatch) => {
         dispatch({ type: LOAD_REQUEST })
