@@ -1,0 +1,9 @@
+.player {
+    position: absolute;
+    background-position: 0 0;
+    width: 40px;
+    height: 40px;
+    background-image: url('./sprite/super_sprite.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+}

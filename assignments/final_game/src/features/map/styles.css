@@ -1,0 +1,42 @@
+.map {
+    
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 800px;
+        height: 400px;
+        border: 1px solid red;
+        background: green;   
+}
+.row {
+    height: 40px;                    
+}
+.tile {
+    display: inline-flex;
+}
+
+.grass {
+    background-image: url('http://i.imgur.com/pTns7.png');
+    background-size: 40px;
+}
+.rock {
+    background-image: url('https://storybookstorage.s3.amazonaws.com/items/images/000/382/473/original/20160509-10-1dg27yk.png?1462800071');
+    background-size: 40px;
+    
+}
+
+.tree {
+    background-image: url('https://orig00.deviantart.net/55a6/f/2012/146/c/a/cab93392999505196b1bf57e345bdd29-d515x5o.png');
+    background-size: 40px;
+
+}
+
+.wall {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8m3gFOMX5ihAC8ojbX0E0KlgPt6MIppwPzAh4Ipl49JsBl_A');
+    background-size: 40px;
+}
+
+.beefPatty {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-fTSYIUHAk3oLH0Oc0nPS27Y-qQROEkUAjj33RBNStrWY8fd');
+    background-size: 40px;
+}
